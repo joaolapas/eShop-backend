@@ -1,6 +1,5 @@
 const dotenv = require('dotenv');
 const cloudinaryModule = require('cloudinary');
-const { ModuleGraph } = require('vite');
 
 dotenv.config();
 const cloudinary = cloudinaryModule.v2;
